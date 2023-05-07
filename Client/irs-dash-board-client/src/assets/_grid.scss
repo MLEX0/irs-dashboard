@@ -1,0 +1,96 @@
+$border-radius: 10px; // Круглость углов
+$box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); // Тень
+.body{
+  display: flex;
+  align-items: center; // центрирование по вертикали
+  justify-content: center ;// центрирование по горизонтали
+}
+.rectangle  {
+  width: auto;
+  height: auto;
+  background-color: #E0E0E0; // Цвет фона
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: 20px;
+}
+.rectangle_age  {
+  width: 405px;
+  height: 405px;
+  background-color: #dadada; // Цвет фона
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: 20px;
+}
+.rectangle_count  {
+  width: 300px;
+  height: 205px;
+  background-color: #dadada; // Цвет фона
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: 20px;
+
+}
+
+.rectangle_gender  {
+  width: 205px;
+  height: 205PX;
+  background-color: #dadada; // Цвет фона
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: 20px;
+}
+.rectangle_miletari  {
+  width: 300px;
+  height: 205PX;
+  background-color: #dadada; // Цвет фона
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: 20px;
+}
+.rectangle_education  {
+  width: 635px;
+  height: 635PX;
+  background-color: #dadada; // Цвет фона
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: 20px;
+}
+.rectangle_innpassn  {
+  width: 180px;
+  height: 180PX;
+  background-color: #dadada; // Цвет фона
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: 20px;
+}
+.container {
+  display: flex;
+}
+
+.rectangle_margintop {
+  margin-top: 10px;
+}
+.rectangle_margin {
+  margin-right: 10px;
+}
+
+.rectangle_marginleft
+{
+  margin-left: 30px;
+}
+
+.rectangle_center{
+  margin-top: 35px;
+}
+
+.h1{
+  font-family: Iceberg, serif;
+  font-size: 128px;
+  margin: 0 auto;
+}
+
+.h2{
+  font-family: Iceberg, serif;
+  font-size: 14px;
+  margin: 0 auto;
+}
